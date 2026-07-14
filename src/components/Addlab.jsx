@@ -1,6 +1,6 @@
 import React from "react";
 import axios from "axios";
-// import NavBar from "./NavBar";
+import NavBar from "./NavBar";
 
 const Addlab = () => {
   const [data, setData] = React.useState({
@@ -44,7 +44,7 @@ const Addlab = () => {
 
   return (
     <div>
-      {/* <NavBar /> */}
+      <NavBar />
 
       <div className="container" style={{ padding: 10, margin: 50 }}>
         <h2 style={{ marginBottom: 40 }}>Add Lab Entry</h2>

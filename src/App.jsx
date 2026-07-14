@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import AddLab from './components/Addlab'
+import ViewAll from './components/ViewAll'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,7 +15,7 @@ function App() {
       <BrowserRouter>
     <Routes>
   <Route path="/" element={<AddLab />} />
-  {/* <Route path="view" element={<ViewDonor />} /> */}
+  <Route path="view" element={<ViewAll />} />
 </Routes>
      </BrowserRouter>
     </>
